@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images\ /poly.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+.menu-bar img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border:10px solid #0d1131;
+    padding: 0px;
+    margin-inline: 25px;
+}
+.menu-bar ul img{
+    margin-inline-start: 0px;
+}
+.menu-bar h3{
+    display: inline-flex;
+    text-align: center;
+    margin-top: 18px;
+
+}
+.menu-bar{
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    margin: 0px;
+    
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.active,.menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.sub1{
+    display: none;
+
+}
+.menu-bar ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    background: rgba(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    background: rgba(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub1 ul{
+    display: block;
+    margin: 10px;
+    width: 180px;
+}
+.menu-bar ul li:hover .sub1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px double #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub1 ul li a:hover{
+    color: #b2ff00;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub2{
+    display: none;
+}
+.hover-me:hover .sub2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgba(0,100,0);
+
+}
+.content{
+    color: #fff;
+    width: 85%;
+    margin: 25%;
+    position: absolute;
+    margin-top: 380px;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 60px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 2px;
+}
+.line{
+    width: 350px;
+    height: 4px;
+    background: crimson;
+    margin: 8px auto;
+    border-radius: 5px;
+    align-items: center;
+}
